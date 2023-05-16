@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\game">
+      <UniqueIdentifier>{128d1257-3ff1-4de9-b2e7-948fe92ee6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\player">
+      <UniqueIdentifier>{e85739f4-f0ba-421a-afe2-e5cfafc91fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\utils">
+      <UniqueIdentifier>{99e40e90-12e2-474c-8e04-595708ff1e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\game">
+      <UniqueIdentifier>{afe6fde9-5da6-4880-a1b6-92e333c242af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\utils">
+      <UniqueIdentifier>{a2cb31dc-29b6-416d-9b30-259912d9ec98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\player">
+      <UniqueIdentifier>{92b2aa0e-2caa-4919-8839-87d24250986d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\card.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\events.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game_components.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\uno_game.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\logger.h">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\stats.h">
+      <Filter>Файлы заголовков\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player\my_player_1.h">
+      <Filter>Файлы заголовков\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player\my_player_2.h">
+      <Filter>Файлы заголовков\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player\StupidPlayer.h">
+      <Filter>Файлы заголовков\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player\my_player_3.h">
+      <Filter>Файлы заголовков\player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\card.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game_components.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\uno_game.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\logger.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\stats.cpp">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\my_player_1.cpp">
+      <Filter>Исходные файлы\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\my_player_2.cpp">
+      <Filter>Исходные файлы\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\StupidPlayer.cpp">
+      <Filter>Исходные файлы\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player\my_player_3.cpp">
+      <Filter>Исходные файлы\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
